@@ -2,7 +2,7 @@ from typing import List, Type, Generator, Dict, Any
 
 import pandas
 
-from evidently import ColumnMapping
+from evidently.pipeline import ColumnMapping
 from evidently.analyzers.base_analyzer import Analyzer
 from evidently.analyzers.regression_performance_analyzer import RegressionPerformanceAnalyzer
 from evidently.model_monitoring.monitoring import ModelMonitor, ModelMonitoringMetric, MetricsType

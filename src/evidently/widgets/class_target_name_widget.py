@@ -4,7 +4,7 @@ from typing import Optional
 
 import pandas as pd
 
-from evidently import ColumnMapping
+from evidently.pipeline import ColumnMapping
 from evidently.model.widget import BaseWidgetInfo
 from evidently.widgets.widget import Widget
 from evidently.analyzers.utils import process_columns

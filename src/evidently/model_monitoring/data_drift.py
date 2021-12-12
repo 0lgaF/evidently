@@ -2,10 +2,10 @@ from typing import Dict, Type, Any
 
 import pandas
 
-from evidently import ColumnMapping
 from evidently.analyzers import Analyzer
 from evidently.analyzers.data_drift_analyzer import DataDriftAnalyzer
 from evidently.model_monitoring.monitoring import ModelMonitor, ModelMonitoringMetric
+from evidently.pipeline import ColumnMapping
 
 
 class DataDriftMetrics:

@@ -7,7 +7,7 @@ from typing import Optional
 import pandas as pd
 import plotly.figure_factory as ff
 
-from evidently import ColumnMapping
+from evidently.pipeline import ColumnMapping
 from evidently.analyzers.num_target_drift_analyzer import NumTargetDriftAnalyzer
 from evidently.model.widget import BaseWidgetInfo, AlertStats
 from evidently.widgets.widget import Widget, GREY, RED

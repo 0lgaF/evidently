@@ -9,7 +9,7 @@ import numpy as np
 
 import plotly.graph_objs as go
 
-from evidently import ColumnMapping
+from evidently.pipeline import ColumnMapping
 from evidently.analyzers.data_drift_analyzer import DataDriftAnalyzer, DataDriftOptions
 from evidently.model.widget import BaseWidgetInfo, AlertStats, AdditionalGraphInfo
 from evidently.widgets.widget import Widget, GREY, RED

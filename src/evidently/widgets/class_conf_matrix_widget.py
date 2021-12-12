@@ -8,7 +8,7 @@ import pandas as pd
 
 import plotly.figure_factory as ff
 
-from evidently import ColumnMapping
+from evidently.pipeline import ColumnMapping
 from evidently.analyzers.classification_performance_analyzer import ClassificationPerformanceAnalyzer
 from evidently.model.widget import BaseWidgetInfo
 from evidently.widgets.widget import Widget
