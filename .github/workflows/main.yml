@@ -43,10 +43,10 @@ jobs:
           architecture: 'x64'
       - name: Install dependencies
         run: pip install -r requirements.txt && pip install -r dev_requirements.txt && pip install --upgrade pygments
-      - name: Run Tests
-        run: pytest
       - name: Prepare env
         run: pip install -e .
+      - name: Run Tests
+        run: pytest
       - name: Export examples
         run: jupyter nbconvert --to script evidently/examples/*.ipynb --output-dir example_scripts
       - name: Download test data
